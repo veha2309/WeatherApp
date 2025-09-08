@@ -1,16 +1,56 @@
-# weather_app
+# WeatherApp 🌦️
 
-A new Flutter project.
+A simple and elegant Weather Application built using **Flutter**.  
+It fetches real-time weather data based on your current location or searched city and displays it with a clean UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 🌍 Detects current location automatically  
+- 🔍 Search weather by city name  
+- 🌡️ Shows temperature, humidity, pressure, and wind speed  
+- 🎨 Modern UI with smooth components  
+- ⚡ Fast and responsive  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- [Flutter](https://flutter.dev/) – Cross-platform framework  
+- [Dart](https://dart.dev/) – Programming language  
+- [Geolocator](https://pub.dev/packages/geolocator) – For fetching user’s location  
+- [Geocoding](https://pub.dev/packages/geocoding) – For converting coordinates to addresses  
+- [Weather API] – To fetch weather data (e.g., OpenWeatherMap)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Installation
+
+1. Clone this repository:
+   ```bash
+     git clone https://github.com/your-username/weather-app.git
+     cd weather-app
+   ```
+
+2. Install dependencies:
+     ```bash
+     flutter pub get
+    ```
+
+3. Run the app:
+    ```bash
+      flutter run
+    ```
+
+
+---
+
+
+
+
+# 📌 To Do
+
+   - Add hourly/daily forecasts
+  
+   - Add dark mode
+  
+   - Improve error handling for API/network issues
